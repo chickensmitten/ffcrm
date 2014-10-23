@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 # Uncomment the database that you have configured in config/database.yml
 # ----------------------------------------------------------------------
 # gem 'mysql2'
-gem 'sqlite3'
-
 
 # Removes a gem dependency
 def remove(name)
@@ -44,6 +42,7 @@ group :development do
     gem 'rb-inotify', :require => false
     gem 'rb-fsevent', :require => false
     gem 'rb-fchange', :require => false
+    gem 'sqlite3'
   end
 end
 
