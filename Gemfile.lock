@@ -372,6 +372,7 @@ DEPENDENCIES
   select2-rails
   selenium-webdriver
   simple_form (~> 2.0.1)
+  sqlite3
   therubyracer
   thin
   thor
